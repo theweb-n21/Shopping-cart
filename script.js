@@ -78,6 +78,17 @@ document.getElementById('minusBtn2').addEventListener('click', function () {
 
 })
 
+// remove event handler
+document.getElementById('remove1').addEventListener('click', function () {
+    document.getElementById('cart1').style.display = 'none';
+
+   
+})
+// remove2 event handler
+document.getElementById('remove2').addEventListener('click', function () {
+    document.getElementById('cart2').style.display = 'none';
+})
+
 
 
 // functionality
